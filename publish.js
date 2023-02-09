@@ -11,7 +11,11 @@ const versionLevels = ['major', 'minor', 'patch'];
 const files = fse.readdirSync('.');
 const directories = files
   .filter((file) => {
-    return !(file === 'node_modules' || /.\.(json|js)$/.test(file));
+    return !(
+      file === 'node_modules' ||
+      /.\.(json|js|md)$/.test(file) ||
+      /^\./.test(file)
+    );
   })
   .map((file) => ({
     name: file,
