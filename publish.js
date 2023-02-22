@@ -68,6 +68,7 @@ inquirer
           'npm publish',
           {
             cwd: path.resolve(__dirname, template), // 不加这参数，则基于命令执行目录 执行命令，加了这目录可以指定从哪个目录开始执行命令
+            stdio: 'inherit',
           },
           function (error, stdout, stderr) {
             console.log(error);

@@ -1,0 +1,1 @@
+{"name":"fancy-cli-template-custom-vue3","version":"1.0.1","description":"","keywords":[],"author":"","license":"ISC","main":"index.js","dependencies":{"glob":"^8.1.0","fs-extra":"^9.1.0","inquirer":"^7.3.3","ejs":"^3.1.8"}}

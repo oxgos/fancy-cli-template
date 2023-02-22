@@ -1,6 +1,7 @@
 {
   "name": "<%= className %>",
   "version": "<%= version %>",
+  "description": "<%= description %>",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
